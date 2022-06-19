@@ -1,8 +1,8 @@
 
-refs = {
+const refs = {
   btnStart: document.querySelector('button[data-start]'),
   btnStop: document.querySelector('button[data-stop]')
-}
+};
 
 refs.btnStart.addEventListener('click', onStart);
 refs.btnStop.addEventListener('click', onStop);

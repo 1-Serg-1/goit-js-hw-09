@@ -4,7 +4,7 @@ const refs = {
   form: document.querySelector('form'),
   delay: document.querySelector('[name="delay"]'),
   step: document.querySelector('[name="step"]'),
-  amount: document.querySelector('[name="amount"]'),
+  amount: document.querySelector('[name="amount"]')
 }
 
 refs.form.addEventListener('submit', (event) => {
